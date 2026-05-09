@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\RhythmAI.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\RhythmAI.dir/objects.a @CMakeFiles\RhythmAI.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\RhythmAI.dir/objects.a -Wl,--no-whole-archive -o RhythmAI.exe -Wl,--out-implib,libRhythmAI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RhythmAI.dir\linkLibs.rsp

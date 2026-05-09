@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\main.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\main.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/main.cpp",
+  "output": "CMakeFiles/RhythmAI.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\AI.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\AI.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/AI.cpp",
+  "output": "CMakeFiles/RhythmAI.dir/AI.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\global.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\global.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/global.cpp",
+  "output": "CMakeFiles/RhythmAI.dir/global.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\binary_addition.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\binary_addition.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/binary_addition.cpp",
+  "output": "CMakeFiles/RhythmAI.dir/binary_addition.cpp.obj"
+}
+]
