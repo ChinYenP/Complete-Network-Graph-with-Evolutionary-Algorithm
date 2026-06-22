@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RhythmAI
+# Target rules for targets named RNN_AI
 
 # Build rule for target.
-RhythmAI: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RhythmAI
-.PHONY : RhythmAI
+RNN_AI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RNN_AI
+.PHONY : RNN_AI
 
 # fast build rule for target.
-RhythmAI/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/build
-.PHONY : RhythmAI/fast
+RNN_AI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/build
+.PHONY : RNN_AI/fast
 
 AI.obj: AI.cpp.obj
 .PHONY : AI.obj
 
 # target to build an object file
 AI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/AI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/AI.cpp.obj
 .PHONY : AI.cpp.obj
 
 AI.i: AI.cpp.i
@@ -141,7 +141,7 @@ AI.i: AI.cpp.i
 
 # target to preprocess a source file
 AI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/AI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/AI.cpp.i
 .PHONY : AI.cpp.i
 
 AI.s: AI.cpp.s
@@ -149,7 +149,7 @@ AI.s: AI.cpp.s
 
 # target to generate assembly for a file
 AI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/AI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/AI.cpp.s
 .PHONY : AI.cpp.s
 
 binary_addition.obj: binary_addition.cpp.obj
@@ -157,7 +157,7 @@ binary_addition.obj: binary_addition.cpp.obj
 
 # target to build an object file
 binary_addition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/binary_addition.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/binary_addition.cpp.obj
 .PHONY : binary_addition.cpp.obj
 
 binary_addition.i: binary_addition.cpp.i
@@ -165,7 +165,7 @@ binary_addition.i: binary_addition.cpp.i
 
 # target to preprocess a source file
 binary_addition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/binary_addition.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/binary_addition.cpp.i
 .PHONY : binary_addition.cpp.i
 
 binary_addition.s: binary_addition.cpp.s
@@ -173,15 +173,39 @@ binary_addition.s: binary_addition.cpp.s
 
 # target to generate assembly for a file
 binary_addition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/binary_addition.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/binary_addition.cpp.s
 .PHONY : binary_addition.cpp.s
+
+explorer.obj: explorer.cpp.obj
+.PHONY : explorer.obj
+
+# target to build an object file
+explorer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/explorer.cpp.obj
+.PHONY : explorer.cpp.obj
+
+explorer.i: explorer.cpp.i
+.PHONY : explorer.i
+
+# target to preprocess a source file
+explorer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/explorer.cpp.i
+.PHONY : explorer.cpp.i
+
+explorer.s: explorer.cpp.s
+.PHONY : explorer.s
+
+# target to generate assembly for a file
+explorer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/explorer.cpp.s
+.PHONY : explorer.cpp.s
 
 global.obj: global.cpp.obj
 .PHONY : global.obj
 
 # target to build an object file
 global.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/global.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/global.cpp.obj
 .PHONY : global.cpp.obj
 
 global.i: global.cpp.i
@@ -189,7 +213,7 @@ global.i: global.cpp.i
 
 # target to preprocess a source file
 global.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/global.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/global.cpp.i
 .PHONY : global.cpp.i
 
 global.s: global.cpp.s
@@ -197,7 +221,7 @@ global.s: global.cpp.s
 
 # target to generate assembly for a file
 global.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/global.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/global.cpp.s
 .PHONY : global.cpp.s
 
 main.obj: main.cpp.obj
@@ -205,7 +229,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -213,7 +237,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -221,8 +245,56 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RhythmAI.dir\build.make CMakeFiles/RhythmAI.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+oscillator.obj: oscillator.cpp.obj
+.PHONY : oscillator.obj
+
+# target to build an object file
+oscillator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/oscillator.cpp.obj
+.PHONY : oscillator.cpp.obj
+
+oscillator.i: oscillator.cpp.i
+.PHONY : oscillator.i
+
+# target to preprocess a source file
+oscillator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/oscillator.cpp.i
+.PHONY : oscillator.cpp.i
+
+oscillator.s: oscillator.cpp.s
+.PHONY : oscillator.s
+
+# target to generate assembly for a file
+oscillator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/oscillator.cpp.s
+.PHONY : oscillator.cpp.s
+
+rhythm_game.obj: rhythm_game.cpp.obj
+.PHONY : rhythm_game.obj
+
+# target to build an object file
+rhythm_game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/rhythm_game.cpp.obj
+.PHONY : rhythm_game.cpp.obj
+
+rhythm_game.i: rhythm_game.cpp.i
+.PHONY : rhythm_game.i
+
+# target to preprocess a source file
+rhythm_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/rhythm_game.cpp.i
+.PHONY : rhythm_game.cpp.i
+
+rhythm_game.s: rhythm_game.cpp.s
+.PHONY : rhythm_game.s
+
+# target to generate assembly for a file
+rhythm_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RNN_AI.dir\build.make CMakeFiles/RNN_AI.dir/rhythm_game.cpp.s
+.PHONY : rhythm_game.cpp.s
 
 # Help Target
 help:
@@ -232,19 +304,28 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... RhythmAI
+	@echo ... RNN_AI
 	@echo ... AI.obj
 	@echo ... AI.i
 	@echo ... AI.s
 	@echo ... binary_addition.obj
 	@echo ... binary_addition.i
 	@echo ... binary_addition.s
+	@echo ... explorer.obj
+	@echo ... explorer.i
+	@echo ... explorer.s
 	@echo ... global.obj
 	@echo ... global.i
 	@echo ... global.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... oscillator.obj
+	@echo ... oscillator.i
+	@echo ... oscillator.s
+	@echo ... rhythm_game.obj
+	@echo ... rhythm_game.i
+	@echo ... rhythm_game.s
 .PHONY : help
 
 

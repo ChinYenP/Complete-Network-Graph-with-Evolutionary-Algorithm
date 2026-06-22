@@ -1,26 +1,44 @@
 [
 {
   "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\main.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\main.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\main.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\main.cpp\"",
   "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/main.cpp",
-  "output": "CMakeFiles/RhythmAI.dir/main.cpp.obj"
+  "output": "CMakeFiles/RNN_AI.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\AI.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\AI.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\AI.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\AI.cpp\"",
   "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/AI.cpp",
-  "output": "CMakeFiles/RhythmAI.dir/AI.cpp.obj"
+  "output": "CMakeFiles/RNN_AI.dir/AI.cpp.obj"
 },
 {
   "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\global.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\global.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\global.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\global.cpp\"",
   "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/global.cpp",
-  "output": "CMakeFiles/RhythmAI.dir/global.cpp.obj"
+  "output": "CMakeFiles/RNN_AI.dir/global.cpp.obj"
 },
 {
   "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -o CMakeFiles\\RhythmAI.dir\\binary_addition.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\binary_addition.cpp\"",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\binary_addition.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\binary_addition.cpp\"",
   "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/binary_addition.cpp",
-  "output": "CMakeFiles/RhythmAI.dir/binary_addition.cpp.obj"
+  "output": "CMakeFiles/RNN_AI.dir/binary_addition.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\rhythm_game.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\rhythm_game.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/rhythm_game.cpp",
+  "output": "CMakeFiles/RNN_AI.dir/rhythm_game.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\oscillator.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\oscillator.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/oscillator.cpp",
+  "output": "CMakeFiles/RNN_AI.dir/oscillator.cpp.obj"
+},
+{
+  "directory": "C:/Yen/Yen coding/codes/projects/AI Test Land/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles\\RNN_AI.dir\\explorer.cpp.obj -c \"C:\\Yen\\Yen coding\\codes\\projects\\AI Test Land\\explorer.cpp\"",
+  "file": "C:/Yen/Yen coding/codes/projects/AI Test Land/explorer.cpp",
+  "output": "CMakeFiles/RNN_AI.dir/explorer.cpp.obj"
 }
 ]
